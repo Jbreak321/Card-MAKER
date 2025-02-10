@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: none;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.moneyInputs{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    width: fit-content;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336) ;
+    width: 271px;
+}
+.information-Card{
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    width: fit-content;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336) ;
+}
