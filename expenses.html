@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="expenses.css">
+</head>
+
+<body>
+    <div class="MonthUI">
+        <div class="title">
+            <h1>MONTHS</h1>
+        </div>
+        
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>Janurary</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>Feburary</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>March</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>April</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>May</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>June</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>July</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>August</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>September</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>October</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>November</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+        <div class="Month">
+            <button>
+                <div class="monthName">
+                    <h3>December</h3>
+                </div>
+                <a href="#">More Info</a>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="moneyInputs">
+            <div class="title">
+                <h3>Save Information</h3>
+            </div>
+            <div class="monthNames"><label>Month: </label>
+                <input type="text" required id="NameMonth">
+            </div>
+            <div class="earned">
+                <label>Earned</label>
+                <input type="text" id="AmountInput" placeholder="$0.00">
+                <button id="submit">Save Info</button>
+            </div>
+        </div>
+
+        <div class="monthInfo">
+            <!-- UI Output Month Cards-->
+            <div class="information-Card" id="card">
+                <h2 id="theMonth">Month</h2>
+                <div class="weekone">
+                    <label for="weekone">Week 1:</label>
+                    <input type="text" readonly id="weekone" >
+                </div>
+
+                <div class="weektwo">
+                    <label for="weektwo">Week 2:</label>
+                    <input type="text" readonly id="weektwo">
+                </div>
+
+                <div class="weekthree">
+                    <label for="weekthree">Week 3:</label>
+                    <input type="text" readonly id="weekthree">
+                </div>
+
+                <div class="weekfour">
+                    <label for="weekfour">Week 4:</label>
+                    <input type="text" readonly id="weekfour">
+                </div>
+
+                <div class="total">
+                    <label for="total">Earned :</label>
+                    <input type="text" id="total" readonly>
+                </div>
+
+            </div>
+            <div class="YearTotal-Card">
+                <label for="">Averaged Yearly Total</label>
+                <h1 id="Averagetotal">
+                    
+                </h1>
+            </div>
+        </div>
+
+    </div>
+    <script src="expenses.js">
+
+    </script>
+</body>
+
+</html>
