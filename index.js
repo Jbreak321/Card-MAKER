@@ -76,7 +76,7 @@ function monthName() {
 function totalAverageCalculation(yearAverage) {
     yearAverage = document.getElementById("Averagetotal")
     for (let i = 0; i < totalInformation.length; i++) {
-        let totalYearAvg = totalInformation[i] * 12
+        var totalYearAvg = totalInformation[i]
         yearAverage.textContent = totalYearAvg
     }
 
