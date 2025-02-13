@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const monthDropdown = document.getElementById("dropDown");
-    const amountInput = document.getElementById("AmountInput");
-    const submitButton = document.getElementById("submit");
+ const monthDropdown = document.getElementById("dropDown");
+ const amountInput = document.getElementById("AmountInput");
+ const submitButton = document.getElementById("submit");
     const theMonth = document.getElementById("theMonth");
     const weekInputs = [
         document.getElementById("weekone"),
